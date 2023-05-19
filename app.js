@@ -1,7 +1,7 @@
 const form = document.getElementById('f1Form');
 const tableBody = document.querySelector('#f1Table tbody');
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', () => {
 
     const season = document.getElementById('season').value;
     const round = document.getElementById('round').value;
